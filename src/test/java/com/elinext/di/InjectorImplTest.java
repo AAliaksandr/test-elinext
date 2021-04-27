@@ -5,6 +5,8 @@ import static org.assertj.core.api.Assertions.*;
 import com.elinext.di.exception.BindingNotFoundException;
 import com.elinext.di.exception.ConstructorNotFoundException;
 import com.elinext.di.exception.CyclicDependencyException;
+import com.elinext.di.exception.NoInjectConstructorException;
+import com.elinext.di.exception.TooManyConstructorsException;
 import com.elinext.di.testdata.AbstractInMemoryEventDAOImpl;
 import com.elinext.di.testdata.EventDAO;
 import com.elinext.di.testdata.EventService;

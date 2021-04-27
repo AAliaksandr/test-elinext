@@ -1,4 +1,4 @@
-package com.elinext.di.exception;
+package com.elinext.di;
 
 import java.util.Objects;
 
@@ -69,7 +69,7 @@ public class Binding<T> {
 
     @Override
     public String toString() {
-        return "com.elinext.di.exception.Binding{" +
+        return "com.elinext.di.Binding{" +
                 "instance=" + instance +
                 ", intfType=" + intfType +
                 ", classType=" + implType +

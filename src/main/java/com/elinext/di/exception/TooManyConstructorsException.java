@@ -1,4 +1,4 @@
-package com.elinext.di;
+package com.elinext.di.exception;
 
 public class TooManyConstructorsException extends RuntimeException{
 
